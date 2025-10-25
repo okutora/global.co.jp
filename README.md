@@ -1,0 +1,2 @@
+# global.co.jp
+okutora
