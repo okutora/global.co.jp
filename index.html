@@ -6,8 +6,16 @@
     <link rel="icon" href="./img/companylogo.jpg" sizes="32x32">
     <link rel="icon" href="./img/companylogo.jpg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="./img/companylogo.jpg">
+    <!--jQueryのCDN-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   </head>
   <body>
+    <script type="text/javascript"> 
+      $(document).ready(function(){
+       $("#footer").load("./footer/footer.html");
+      });
+
+    </script>
     <div>
     <!--会社名img-->
       <div style="display:flex;justify-content: center;">
@@ -72,9 +80,16 @@
            <p style="">２０２５&nbsp;年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日&nbsp;本&nbsp;東&nbsp;京&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;設&nbsp;立</p>
          </div>
       </div>
+<!--footerのライン-->
        <div style=" background-color: #FBD603;">
          <hr style="border:none;border-top:dashed 5px yellow;height:1px;width:300px;">
        </div>
+<!--footer-->
+      <div id ="footer" >
+        <!--#include virtual="../footer/footer.html" -->
+ 
+
+      </div>
 　　　<div>
 　　　　　©２０２５年　株&nbsp;式&nbsp;会&nbsp;社&nbsp;億&nbsp;虎 &nbsp;&nbsp;OKUTORA Corporation
 　　　</div>
